@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Squares and Cubes</title>
+</head>
+<body onload="squareCube();">
+<h1 style="text-align: center;color: brown;">Squares and Cubes </h1>
+<hr>
+<center>
+<div id="table"></div>
+</center>
+<script>
+function squareCube() {
+var a = "<table border='1'> <tr> <th>SNO</th> <th>SQUARE</th> <th>CUBE</th> </tr>";
+var sqr=0,cube=0;
+for(i=0;i<=10;i++) {
+sqr = i*i;
+cube = i*i*i;
+a += "<tr><td>"+i+"</td><td>"+sqr+"</td><td>"+cube+"</td></tr>";
+}
+a += "</table>";
+document.getElementById("table").innerHTML = a;
+}
+</script>
+</body>
+</html>
