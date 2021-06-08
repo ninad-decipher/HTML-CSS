@@ -1,0 +1,39 @@
+.container{
+    display: block;
+    width: 700px;
+    margin: 125px auto;
+    border-bottom: 5px solid cyan;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid cyan; 
+    padding-bottom: 20px;
+}
+table{
+    margin: auto;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: crimson;
+    font-size: 40px;
+    font-family: 'Kiwi Maru', serif;
+}
+input[type="button"]{
+    background-color: dimgrey;
+    color: black;
+    border: 3px solid black;
+    padding: 10px;
+    width: 100%;
+}
+input[type="text"] {
+    background-color: white;
+    border: solid black 3px;
+    width: 86%;
+    padding: 10px;
+}
+input[type="button"]:hover{
+    background-color:floralwhite;
+    color: black;
+    border: solid dimgrey 3px;
+    width: 100%;
+}
