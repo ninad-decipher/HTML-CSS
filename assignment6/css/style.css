@@ -1,0 +1,112 @@
+
+header{
+	margin-left: 400px;
+	margin-bottom: 20px;
+}
+
+
+h1{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+#s1{ 
+	justify-content: center;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+#s1 figure{
+	float: left;
+}
+
+#a1{
+	margin-left: 250px;
+}
+
+#s1 a{
+	margin-left: 900px;
+	border:2px solid steelblue ;
+	transition: 0.2s ease;
+	background-color: steelblue;
+	color: white;
+	text-decoration: none;
+}
+
+#s1 a:hover{
+	background-color: lightcoral;
+	color: black;
+}
+
+#s2{ 
+	justify-content: center;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+#s2 figure{
+	float: left;
+}
+#a2{
+	margin-left: 250px;
+}
+#s2 a{
+	margin-left:900px ;
+	border: 2px solid steelblue ;
+	transition: 0.2s ease;
+	background-color: steelblue;
+	color: white;
+	text-decoration: none;
+}
+
+#s2 a:hover{
+	background-color: lightpink;
+	color: black;
+}
+
+#s3{ 
+	justify-content: center;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+#s3 figure{
+	float: left;
+}
+#a3{
+	margin-left: 250px;
+}
+#s3 a{
+	margin-left:900px ;
+	border: 2px solid steelblue ;
+	transition: 0.2s ease;
+	background-color: steelblue;
+	color: white;
+	text-decoration: none;
+}
+
+#s3 a:hover{
+	background-color: lightpink;
+	color: black;
+}
+
+footer{
+	height: 400px;
+	background-color: black;
+	color: white;
+
+}
+.f1{
+	padding: 20px;
+	width: 500px;
+	height: 100px;
+}
+
+.f1 figure{
+	float: left;
+}
+
+.f2{
+	color: white;
+	margin-left: 600px;
+	margin-top: -114px;
+}
